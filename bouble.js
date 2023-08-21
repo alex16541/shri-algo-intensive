@@ -21,7 +21,7 @@ function sort(arr) {
         } else {
             i++;
             j++;
-            
+
         }
 
     }
