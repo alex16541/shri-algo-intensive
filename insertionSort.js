@@ -1,4 +1,6 @@
 function sort(arr) {
+    if(arr.length === 0) return [] 
+
     let sorted = [arr.shift()];
 
     while(arr.length){
@@ -28,6 +30,6 @@ function sort(arr) {
     return sorted;
 }
 
-const res = sort([1,3,6,2,8,4,3,2]);
+const res = sort([]);
 
 console.log(res);
